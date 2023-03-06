@@ -11,7 +11,7 @@ The dataset used for this project were in csv format named train.csv can be foun
 
 Column 1: the unique id for a news article . Column 2: the title of a news article. Column 3: the author of the news. Column 4: the text of the article; could be incomplete. Column 5: label indicating whether news is fake or not. 1: Fake news 0: real News
 
-##File descriptions
+## File descriptions
 Project2_FakeNews_Classifier
 This is the main python file that predicts whether the news is fake or not. In this project the text file is converted into meaningful numbers so that the computer can understand. we are using the vectorize function[TFIDF] TFIDF works by proportionally increasing the number of times a word appears in the document but is counterbalanced by the number of documents in which it is present. Hence, words like ‘this’, ’are’ etc., that are commonly present in all the documents are not given a very high rank. However, a word that is present too many times in a few of the documents will be given a higher rank as it might be indicative of the context of the document.After changing the data into numerical mode, it is fed into machine learning model. The model we are using is logistic regression model. Logistic regression function gives a sigmoid curve and if the predicted value is greater than the threshold value, it will give label as one which means the news is fake and if it is less than the threshold value then it will give label as zero which means news is not fake.
 
