@@ -4,7 +4,7 @@ Project Name : Fake News Predictor: In this project, we have used various natura
 
 # Getting started
 ## pre-requisites
-You will also need to download and install below 3 packages after you install  python:
+You will  need to download and install below 3 packages after you install  python:
 Sklearn (scikit-learn) - pandas - for creating the dataframes. nltk - for natural language processing. re - for searching text in document.
 
 The dataset used for this project were in csv format named train.csv can be found in repo. Below is some description about the data files used for this project. the dataset containes 5 variables/columns for train, test sets as follows:
